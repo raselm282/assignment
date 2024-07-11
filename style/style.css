@@ -66,10 +66,44 @@ main{
     cursor: pointer;
 }
 #vdo{
-    border: 1px solid royalblue;
-    border-radius: 5px;
+    border: 1px solid rgb(225, 225, 231);
+    border-radius: 10px;
     padding: 20px;
+    
 }
 .video2{
     text-align: center;
+}
+/* my skills start */
+
+.skills{
+    /* padding: 100px; */
+    /* background-color: #e4dede; */
+    margin-top: 50px;
+}
+.skill1{
+    text-align: center;
+}
+.main-skills{
+    display: flex;
+    /* background-color: antiquewhite; */
+    /* padding: 20px; */
+}
+.skill2,.skill3,.skill4{
+    margin: 15px;
+    /* background-color: azure; */
+    padding: 15px;
+    border-radius: 10px;
+    text-align: left;
+}
+.skill2{
+    background-color: rgb(247, 249, 249);
+}
+.skill3{
+    background-color: rgb(243, 245, 246);
+
+}
+.skill4{
+    background-color: rgb(240, 245, 245);
+  
 }
