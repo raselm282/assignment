@@ -10,10 +10,7 @@ nav > button{
 }
 header > section{
     background-image: url(../assets/Hero-bg.png);
-    /* height: 200px; */
     padding: 40px;
-    /* justify-content: center;
-    align-items: center; */
 }
 .description{
     width: 40%;
@@ -49,7 +46,6 @@ main{
 }
 .des2, .des3, .des4{
     display: flex;
-    /* justify-content: center; */
     align-items: center;
     background-color: rgb(247, 247, 248);
     border-radius: 10px;
@@ -80,8 +76,6 @@ main{
 /* my skills start */
 
 .skills{
-    /* padding: 100px; */
-    /* background-color: #e4dede; */
     margin-top: 50px;
 }
 .skill1{
@@ -89,12 +83,9 @@ main{
 }
 .main-skills{
     display: flex;
-    /* background-color: antiquewhite; */
-    /* padding: 20px; */
 }
 .skill2,.skill3,.skill4{
     margin: 15px;
-    /* background-color: azure; */
     padding: 15px;
     border-radius: 10px;
     text-align: left;
@@ -141,7 +132,6 @@ a{
 .support-items{
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
-    /* height: 300px; */
     background-position: center;
     background-size: cover;
     text-align: center;
@@ -153,7 +143,6 @@ a{
 }
 .support-text, .support-submit{
     padding: 10px;
-    /* width: 100px; */
     border-radius: 5px;
     border-style: none;
 }/* my support start */
@@ -170,8 +159,9 @@ a{
 }
 img{
     padding: 10px;
+    cursor: pointer;
 }
 .footer-icons > p{
     font-weight: 700;
-    /* color: brown; */
 }
+/* my footer end */
