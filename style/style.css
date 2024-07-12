@@ -1,3 +1,4 @@
+.font{font-family: Arial, Helvetica, sans-serif;}
 nav{
     display: flex;
     justify-content: space-around;
@@ -32,6 +33,7 @@ header > section{
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    text-decoration: none;
 }
 main{
     margin: 80px 130px;
@@ -132,4 +134,44 @@ main{
 a{
     color: black;
     font-weight: 800;
+}
+/* my next skills end */
+/* my support start */
+
+.support-items{
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    /* height: 300px; */
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    padding: 20px 200px;
+    color: white;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+.support-text, .support-submit{
+    padding: 10px;
+    /* width: 100px; */
+    border-radius: 5px;
+    border-style: none;
+}/* my support start */
+/* my footer start */
+
+.footer{
+    max-width: 950px;
+    margin: 0 auto;
+}
+.footer-icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    padding: 10px;
+}
+.footer-icons > p{
+    font-weight: 700;
+    /* color: brown; */
 }
